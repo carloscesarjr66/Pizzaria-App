@@ -3,7 +3,7 @@ Pizzeria application developed, to acquire knowledge in React Native.
 
 <b>FIAP college student test, NAC2.
 
-<b>Instructions for openong the Project:</b>  
+<b>Instructions for open the Project:</b>  
 - Open Cmd. 
 - Change the Directory to the Project folder. 
 - Type: ' npm install ' and ' npm -g install react-native-cli '. 
