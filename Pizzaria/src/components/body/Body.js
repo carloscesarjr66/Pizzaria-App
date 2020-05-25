@@ -1,11 +1,12 @@
 import React from 'react';
-import { View, Text, ImageBackground, Image } from 'react-native';
+import { View, Text, ImageBackground, Image, TouchableOpacity } from 'react-native';
 import styles from './styles';
 import { BG, Pizza } from '../../assets/images/images';
 
 
 export default class Body extends React.Component {
-    render(){
+
+     render(){
         return (
 
             <View>
@@ -13,6 +14,7 @@ export default class Body extends React.Component {
               
               <View><Text style={styles.reception}>Hello, Marwen Kheder</Text></View>
               
+              <TouchableOpacity delayPressIn={80} onPress={() => console.warn('Clicked!')}>
               <View style={styles.container}>
               <View>
                 <Image source={Pizza} style={styles.icon} />
@@ -24,7 +26,9 @@ export default class Body extends React.Component {
                  <Text style={styles.data}>2017-05-10 21:44:35</Text>
                 </View>
               </View>
-
+              </TouchableOpacity>
+              
+              <TouchableOpacity delayPressIn={80} onPress={() => console.warn('Clicked!')}>
               <View style={styles.container}>
               <View>
                 <Image source={Pizza} style={styles.icon} />
@@ -36,7 +40,9 @@ export default class Body extends React.Component {
                  <Text style={styles.data}>2017-05-10 21:40:28</Text>
                 </View>
               </View>
+              </TouchableOpacity>
 
+              <TouchableOpacity delayPressIn={80} onPress={() => console.warn('Clicked!')}>
               <View style={styles.container}>
               <View>
                 <Image source={Pizza} style={styles.icon} />
@@ -44,11 +50,13 @@ export default class Body extends React.Component {
                 <View>
                  <Text style={styles.valor}>19.75</Text>
                  <Text style={styles.title}>GIGA</Text>
-                 <Text style={styles.info}>Cheese(Extra), Mushroom, Mushroom, Tomato(Extra), Basil, Onion, Green pepper(Extra).</Text>
+                 <Text style={styles.info}>Cheese(Extra), Mushroom, Tomato(Extra), Basil, Onion, Green pepper(Extra).</Text>
                  <Text style={styles.data}>2017-05-10 21:08:55</Text>
                 </View>
               </View>
+              </TouchableOpacity>
 
+              <TouchableOpacity delayPressIn={80} onPress={() => console.warn('Clicked!')}> 
               <View style={styles.container}>
               <View>
                 <Image source={Pizza} style={styles.icon} />
@@ -60,7 +68,9 @@ export default class Body extends React.Component {
                  <Text style={styles.data}>2017-05-10 20:45:25</Text>
                 </View>
               </View>
+              </TouchableOpacity>
 
+              <TouchableOpacity delayPressIn={80} onPress={() => console.warn('Clicked!')}>
               <View style={styles.container}>
               <View>
                 <Image source={Pizza} style={styles.icon} />
@@ -72,6 +82,7 @@ export default class Body extends React.Component {
                  <Text style={styles.data}>2017-05-10 20:31:15</Text>
                 </View>
               </View>
+              </TouchableOpacity>
 
               </ImageBackground>
             </View>

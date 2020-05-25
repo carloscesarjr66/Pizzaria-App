@@ -41,8 +41,8 @@ const styles = StyleSheet.create({
     },
     data: {
         color: '#feffff',
-        fontSize: 16,
-        paddingLeft: 80
+        fontSize: 14,
+        paddingLeft: 100
     },
     valor: {
         color: '#feffff',
